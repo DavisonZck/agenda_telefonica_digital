@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #474747;
+    color: #fff;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border: 1px solid #0084ff83;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #000000;
+}
+
+th, td {
+    font-family: "Roboto Mono", monospace;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+th {
+    background-color: #0c4700;
+    font-size: 1.3em;
+}
+
+td button {
+    background-color: #d9534f;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #c9302c;
+}
